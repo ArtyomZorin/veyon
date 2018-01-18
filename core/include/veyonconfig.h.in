@@ -11,6 +11,7 @@
 #cmakedefine VEYON_HOST_X86_64 1
 
 #cmakedefine VEYON_HAVE_ARPA_INET_H 1
+#cmakedefine VEYON_HAVE_ENDIAN_H 1
 #cmakedefine VEYON_HAVE_FCNTL_H 1
 #cmakedefine VEYON_HAVE_FCNTL_H 1
 #cmakedefine VEYON_HAVE_LIMITS_H 1
@@ -93,7 +94,6 @@
 /* x11vnc configuration */
 #define VEYON_IPv6 1
 #cmakedefine VEYON_ALLOW24BPP
-#cmakedefine VEYON_BACKCHANNEL
 #cmakedefine VEYON_HAVE_X11 1
 #cmakedefine VEYON_HAVE_X509_PRINT_EX_FP 1
 #cmakedefine VEYON_HAVE_XI2
@@ -120,6 +120,7 @@
 #define LDAP_FOUND
 #cmakedefine SASL2_FOUND
 #cmakedefine HAVE_LDAP_H
+#cmakedefine HAVE_SYS_TIME_H
 #cmakedefine HAVE_LDAP_START_TLS_S
 #cmakedefine HAVE_LDAP_INITIALIZE
 #cmakedefine HAVE_BER_MEMFREE
